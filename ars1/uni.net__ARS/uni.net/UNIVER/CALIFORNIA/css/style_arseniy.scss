@@ -134,6 +134,7 @@
     }
     
     main {
+        width: 100%;
         .california-image {
             height: 700px;
             background-image: url(../img/california-img.png);
@@ -696,6 +697,7 @@
             padding-bottom: 30px;
         }
         .header__nav {
+            margin-top: 30px;
             display: flex;
             justify-content: space-between;
             align-items: center;

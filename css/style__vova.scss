@@ -1803,7 +1803,7 @@ nav {
             height: 60px;
             width: 60px;
             background: #ebcab9;
-            padding: 15px;
+            padding: 10px;
             margin-left: 35px;
             border-radius: 50%;
             border: #000 solid 3px;
@@ -1840,6 +1840,7 @@ nav {
         padding-bottom: 30px;
     }
     .header__nav {
+        margin-top: 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;

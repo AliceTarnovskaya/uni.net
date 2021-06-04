@@ -110,8 +110,7 @@ section {
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -173,21 +172,13 @@ body {
   border: solid #A36361 1px;
 }
 .header__shell {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 95px;
 }
 .header__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .header__logo-img {
   width: 116px;
@@ -198,28 +189,15 @@ body {
   font-size: 24px;
 }
 .header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .burger-active {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   margin-right: 30px;
   height: 40px;
   width: 40px;
@@ -236,28 +214,19 @@ body {
   background: #A36361;
 }
 .burger-active #item1 {
-  -webkit-transform: translate(0px, -50%) rotate(45deg);
-          transform: translate(0px, -50%) rotate(45deg);
+  transform: translate(0px, -50%) rotate(45deg);
 }
 .burger-active #item2 {
   display: none;
 }
 .burger-active #item3 {
-  -webkit-transform: translate(0px, -50%) rotate(-45deg);
-          transform: translate(0px, -50%) rotate(-45deg);
+  transform: translate(0px, -50%) rotate(-45deg);
 }
 
 .burger {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   margin-right: 30px;
   height: 40px;
   width: 40px;
@@ -276,19 +245,13 @@ nav .header__nav-ul {
 }
 nav .header__nav-ul ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 nav .header__nav-ul ul li {
   padding: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 nav .header__nav-ul a {
   text-decoration: none;
@@ -306,6 +269,9 @@ nav .header__nav-ul a:hover {
   display: inline-block;
 }
 
+main {
+  width: 100%;
+}
 main .california-image {
   height: 700px;
   background-image: url(../img/california-img.png);
@@ -355,12 +321,9 @@ section .International-exchange-programs h2 {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  -webkit-box-shadow: 0px -15px 15px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px -15px 15px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px -15px 15px 4px rgba(0, 0, 0, 0.15);
 }
 .footer__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .footer__text {
@@ -375,16 +338,10 @@ section .International-exchange-programs h2 {
   color: #000000;
 }
 .footer__social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  justify-content: right;
 }
 .footer__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 90px;
   width: 90px;
@@ -393,12 +350,8 @@ section .International-exchange-programs h2 {
   margin-left: 35px;
   border-radius: 50%;
   border: #000 solid 5px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .footer__item a {
   text-decoration: none;
@@ -416,51 +369,27 @@ section .International-exchange-programs h2 {
 }
 
 .fa-instagram {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .fa-reddit-alien {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .fa-whatsapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .fa-twitter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1000px) and (min-width: 768px) {
@@ -471,13 +400,9 @@ section .International-exchange-programs h2 {
 
   nav .header__nav-ul ul {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 0 20px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   nav .header__nav-ul ul li {
     padding: 10px;
@@ -504,17 +429,11 @@ section .International-exchange-programs h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
   }
   .footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .footer__text {
     font-family: "Roboto";
@@ -527,13 +446,9 @@ section .International-exchange-programs h2 {
     color: #000000;
   }
   .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .footer__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 90px;
     width: 90px;
@@ -543,12 +458,8 @@ section .International-exchange-programs h2 {
     margin-top: 10px;
     border-radius: 50%;
     border: #000 solid 2px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__item a {
     text-decoration: none;
@@ -575,12 +486,9 @@ section .International-exchange-programs h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
   }
   .footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .footer__text {
@@ -595,19 +503,11 @@ section .International-exchange-programs h2 {
     color: #000000;
   }
   .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .footer__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 90px;
     width: 90px;
@@ -616,12 +516,8 @@ section .International-exchange-programs h2 {
     margin-left: 35px;
     border-radius: 50%;
     border: #000 solid 5px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__item a {
     text-decoration: none;
@@ -645,12 +541,8 @@ section .International-exchange-programs h2 {
   }
 
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
 
   .header__shell {
@@ -660,26 +552,16 @@ section .International-exchange-programs h2 {
   }
 
   .header__logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 
   nav {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    order: 1;
   }
   nav .header__nav-ul ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     list-style: none;
     padding: 0 20px;
   }
@@ -702,16 +584,11 @@ section .International-exchange-programs h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
   }
   .footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .footer__text {
     width: 50%;
@@ -725,17 +602,10 @@ section .International-exchange-programs h2 {
     color: #000000;
   }
   .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .footer__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 80px;
     width: 80px;
@@ -745,12 +615,8 @@ section .International-exchange-programs h2 {
     margin-left: 35px;
     border-radius: 50%;
     border: #000 solid 2px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__item a {
     text-decoration: none;
@@ -776,35 +642,21 @@ section .International-exchange-programs h2 {
   }
 
   .header__logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
 
   nav {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    order: 1;
   }
   nav .header__nav-ul ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     list-style: none;
     padding: 0 20px;
   }
@@ -827,8 +679,7 @@ section .International-exchange-programs h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
   }
   .footer__text {
     font-family: "Roboto";
@@ -841,20 +692,11 @@ section .International-exchange-programs h2 {
     color: #000000;
   }
   .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .footer__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 90px;
     width: 90px;
@@ -864,12 +706,8 @@ section .International-exchange-programs h2 {
     margin-top: 10px;
     border-radius: 50%;
     border: #000 solid 2px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__item a {
     text-decoration: none;
@@ -895,31 +733,19 @@ section .International-exchange-programs h2 {
   }
 
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
 
   nav {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    order: 1;
   }
   nav .header__nav-ul ul {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 0 5px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   nav .header__nav-ul ul li {
     padding: 0 5px;
@@ -940,16 +766,11 @@ section .International-exchange-programs h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
   }
   .footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .footer__text {
     font-family: "Roboto";
@@ -959,20 +780,11 @@ section .International-exchange-programs h2 {
     color: #000000;
   }
   .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .footer__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 60px;
     width: 60px;
@@ -981,12 +793,8 @@ section .International-exchange-programs h2 {
     margin-left: 35px;
     border-radius: 50%;
     border: #000 solid 3px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__item a {
     text-decoration: none;
@@ -1020,31 +828,20 @@ section .International-exchange-programs h2 {
   }
 
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    margin-top: 30px;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
 
   nav {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    order: 1;
   }
   nav .header__nav-ul ul {
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 0 5px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   nav .header__nav-ul ul li {
     padding: 0 5px;
@@ -1065,16 +862,11 @@ section .International-exchange-programs h2 {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    -webkit-box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
-            box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -20px 20px 4px rgba(0, 0, 0, 0.15);
   }
   .footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .footer__text {
     font-family: "Roboto";
@@ -1084,20 +876,11 @@ section .International-exchange-programs h2 {
     color: #000000;
   }
   .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .footer__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 60px;
     width: 60px;
@@ -1106,12 +889,8 @@ section .International-exchange-programs h2 {
     margin-left: 35px;
     border-radius: 50%;
     border: #000 solid 2px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .footer__item a {
     text-decoration: none;

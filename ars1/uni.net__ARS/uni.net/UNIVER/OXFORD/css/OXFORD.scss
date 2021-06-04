@@ -145,7 +145,7 @@ section {
         }
     }
     .main-text {
-        h2 {
+        p {
             padding-top: 15px;
             font-family: 'Roboto';
             font-weight: 700;
@@ -166,22 +166,26 @@ section {
         }
     }
     .minimum-points {
-        h2 {
+        p {
             padding-top: 20px;
-            width: 530px;
             font-family: 'Roboto';
             font-weight: 700;
+        }
+        .exams {
+            padding: 0 40px 0 0;
+        }
+        .points-st {
+            padding: 0 40px 0 0;
         }
         .list {
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: left;
             margin-top: 40px;
             text-align: left;
-            width: 1030px;
             ul {
                 list-style: none;
-                margin-right: 200px;
+                // margin-right: 200px;
                 li {
                     font-weight: 700;
                 }
@@ -189,7 +193,7 @@ section {
         }
     }
     .calendar {
-        h2 {
+        p {
             padding-top: 40px;
             font-family: 'Roboto';
             font-weight: 700;
@@ -197,12 +201,11 @@ section {
         .calendar-list {
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: left;
             text-align: left;
-            width: 1030px;
             .stage {
-                margin-right: 200px;
                 text-align: left;
+                margin-right: 40px;
                 p {
                     font-weight: 700;
                     text-align: left;
@@ -231,7 +234,7 @@ section {
         }
     }
     .admission-calendar {
-        h2 {
+        p {
             padding-top: 50px;
             padding-bottom: 40px;
             font-family: 'Roboto';
@@ -753,6 +756,7 @@ section {
         padding-bottom: 30px;
     }
     .header__nav {
+        margin-top: 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -822,5 +826,14 @@ section {
                 font-size: 30px;
             }
         }
+    }
+    .exams {
+        margin: 0 10px 0 0;
+    }
+    .points-st {
+        padding: 0 10px 0 0;
+    }
+    li {
+        font-size: 12px;
     }
 }
